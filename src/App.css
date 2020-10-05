@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+.ui.button.btn-options{
+  margin: 10px;
+  width: 100px;
+}
+
+.btn-item-name{
+  width: 100px;
+  margin: 10px;
+}
+
+.centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.block{
+  display: block;
+}
+
+.outline{
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.squeeze{
+  padding: 0 25px;
+  margin: 10px;
+}
+
+.menu-container{
+  padding: 50px;
+}
+
+.ui.button.align-right-mid{
+    position: absolute;
+    left: 0;
+    right: 10px;
+    margin-left: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
